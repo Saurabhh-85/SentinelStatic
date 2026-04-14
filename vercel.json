@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "malware-static-analysis-tool",
+  "buildCommand": "npm run build --prefix frontend",
+  "outputDirectory": "frontend/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.py"
+    }
+  ],
+  "functions": {
+    "api/index.py": {
+      "runtime": "@vercel/python"
+    }
+  }
+}

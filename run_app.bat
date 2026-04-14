@@ -1,0 +1,6 @@
+@echo off
+echo Starting SentinelStatic Backend...
+start cmd /k "python api.py"
+echo Starting SentinelStatic Frontend...
+cd frontend
+npm run dev
