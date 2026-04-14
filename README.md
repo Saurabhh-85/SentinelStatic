@@ -67,4 +67,4 @@ The easiest way to start both the backend and frontend is to use the included ba
 ---
 
 ## 🛡️ Responsible Use
-*This tool is intended for educational and security research purposes only. Always analyze potentially malicious files in a secure, isolated sandbox environment.*
+*This tool is intended for educational and security research purposes only. Always analyze potentially malicious files in a secure, isolated sandbox environment.* 
