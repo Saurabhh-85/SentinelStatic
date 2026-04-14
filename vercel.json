@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "malware-static-analysis-tool",
-  "buildCommand": "npm run build --prefix frontend",
+  "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
   "framework": "vite",
   "rewrites": [
