@@ -107,7 +107,7 @@ async def analyze_file(file: UploadFile = File(...)):
         return results
         
     except Exception as e:
-        return {"error": str(e)}
+        raise HTTPException(status_code=500, detail=str(e))
     finally:
         # Cleanup: Remove the temporary file
         if os.path.exists(temp_file_path):
